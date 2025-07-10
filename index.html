@@ -2,109 +2,136 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Vani Narwani - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <header>
-  <nav class="navbar">
-    <div class="nav-left">
-      <img src="assets/logo.png" alt="Vani Narwani Logo" class="logo" />
-    </div>
-    
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#Education">Education</a></li>
-      <li><a href="#Skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+    <nav class="navbar">
+      <div class="nav-left">
+        <img src="assets/logo.png" alt="Vani Narwani Logo" class="logo" />
+      </div>
       
-    </ul>
-    
-    <div class="toggle-container">
-      <label class="theme-toggle">
-        <input type="checkbox" id="modeToggle" />
-        <span class="emoji">🌙</span>
-      </label>
-    </div>
-  </nav>
-  
-</header>
-
-
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+      <div class="toggle-container">
+        <label class="theme-toggle">
+          <input type="checkbox" id="modeToggle" />
+          <span class="emoji">🌙</span>
+        </label>
+      </div>
+      
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
 
   <main>
     <div class="banner">
-  <img src="assets/banner.png" alt="Banner image of Vani" />
-  <h1 class="welcome-text">Hi, I'm Vani 👩‍💻 (Full Stack Developer)</h1>
-</div>
+      <img src="assets/banner.png" alt="Banner image of Vani" />
+      <h1 class="welcome-text">Hi, I'm Vani 👩‍💻<br><span>(Full Stack Developer)</span></h1>
+    </div>
+    
     <section id="about">
       <h2>🧁 About</h2>
       <p>
-        Hi! I’m Vani Narwani 👋  
-        I’m a passionate <strong>Full Stack Developer</strong> 
+        Hi! I'm Vani Narwani 👋  
+        I'm a passionate <strong>Full Stack Developer</strong> 
         who loves turning ideas into interactive and beautiful websites.
       </p>
       <p>
-        I enjoy working on both the frontend and backend of web applications,</br>
-         blending clean design with efficient code.
+        I enjoy working on both the frontend and backend of web applications, blending clean design with efficient code.
         My goal is to build user-friendly digital experiences that make life a little easier.
       </p>
       <p>
-        I’m always learning, whether it’s picking up a new JavaScript framework or exploring UI trends.
+        I'm always learning, whether it's picking up a new JavaScript framework or exploring UI trends.
       </p>
     </section>
+    
     <section id="Education">
-        <h2 class="section-title">Education</h2>
-        <div class="glass-box aos-init aos-animate" data-aos="fade-up">
-            <div class="timeline">
-                <div class="timeline-item left aos-init aos-animate" data-aos="fade-right">
-                    <div class="timeline-content">
-                        <div class="timeline-date">2024 - 2027</div>
-                        <h3>BCA</h3>
-                        <p>Sant Hirdaram Girls College Bhopal</p>
-                        
-                    </div>
-                </div>
-                <div class="timeline-item right aos-init aos-animate" data-aos="fade-left">
-                    <div class="timeline-content">
-                        <div class="timeline-date">2023 - 2024</div>
-                        <h3>12th Grade - Commerce+ I.P</h3>
-                
-                        <p>Score: 83%</p>
-                    </div>
-                </div>
+      <h2 class="section-title">Education</h2>
+      <div class="glass-box">
+        <div class="timeline">
+          <div class="timeline-item left">
+            <div class="timeline-content">
+              <div class="timeline-date">2024 - 2027</div>
+              <h3>BCA</h3>
+              <p>Sant Hirdaram Girls College Bhopal</p>
             </div>
+          </div>
+          <div class="timeline-item right">
+            <div class="timeline-content">
+              <div class="timeline-date">2023 - 2024</div>
+              <h3>12th Grade - Commerce+ I.P</h3>
+              <p>Score: 83%</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="projects" id="projects">
       <h2>💻 Projects</h2>
-      <ul>
-        <li><strong>Portfolio Website</strong> – This cute and responsive website ✨</li>
-        <li><strong>ToDo App</strong> – A productivity web app</li>
-        <li><strong>TheEcomStore</strong> – Real-time Shopping web app</li>
-      </ul>
+      <div class="project-list">
+        <div class="project-card">
+          <strong>Portfolio Website</strong>
+          <p>This cute and responsive website ✨</p>
+        </div>
+        <div class="project-card">
+          <strong>ToDo App</strong>
+          <p>A productivity web app</p>
+        </div>
+        <div class="project-card">
+          <strong>TheEcomStore</strong>
+          <p>Real-time Shopping web app</p>
+        </div>
+      </div>
     </section>
+    
     <section class="Skills" id="Skills">
       <h2>Skills</h2>
-      <ul>
-        <li><strong>Html CSS JavaScript</strong>✨</li>
-        <li><strong>Frontend </strong> React.js </li>
-        <li><strong>Programming language</strong> – Python</li>
-        <li><strong>backend</strong> –Django , learning - node.js </li>
-        <li><strong>more</strong> Tailwind CSS, Bootstrap, Git ,Github ,Motion.dev e.t.c</li>
-
-      </ul>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <strong>Frontend</strong>
+          <p>HTML, CSS, JavaScript, React.js</p>
+        </div>
+        <div class="skill-card">
+          <strong>Backend</strong>
+          <p>Django, Node.js (learning)</p>
+        </div>
+        <div class="skill-card">
+          <strong>Programming</strong>
+          <p>Python</p>
+        </div>
+        <div class="skill-card">
+          <strong>Tools</strong>
+          <p>Git, GitHub, Tailwind CSS, Bootstrap</p>
+        </div>
+      </div>
     </section>
 
     <section class="contact" id="contact">
       <h2>📬 Contact Me</h2>
-      <p>Email: <a href="mailto:vaninarwani@gmail.com">vaninarwani@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/VaniNarwani23" target="_blank">https://github.com/VaniNarwani23</a></p>
+      <div class="contact-links">
+        <a href="mailto:vaninarwani@gmail.com" class="contact-btn">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://github.com/VaniNarwani23" target="_blank" class="contact-btn">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
     </section>
   </main>
 
