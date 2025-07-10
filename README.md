@@ -1,4 +1,4 @@
-# 💖 Vani Narwani — My Cute Developer Portfolio
+# 💖 Vani Narwani — My Cute  Full Stack Developer Portfolio
 
 Hey there! 🌸  
 Welcome to my happy little corner of the internet — a portfolio that’s just as fun and creative as I am!  
