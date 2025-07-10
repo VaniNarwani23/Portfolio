@@ -4,6 +4,7 @@ Hey there! 🌸
 Welcome to my happy little corner of the internet — a portfolio that’s just as fun and creative as I am!  
 This website is where I share what I do, what I’ve built, and how much I love turning ideas into reality with code 🧁👩‍💻
 
+![image](https://github.com/user-attachments/assets/586fb912-8d46-4249-a543-c45090f94094)
 
 ## 🌼 What's Inside?
 
