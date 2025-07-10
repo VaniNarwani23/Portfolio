@@ -1,5 +1,6 @@
 # 💖 Vani Narwani — My Cute  Full Stack Developer Portfolio
 
+
 Hey there! 🌸  
 Welcome to my happy little corner of the internet — a portfolio that’s just as fun and creative as I am!  
 This website is where I share what I do, what I’ve built, and how much I love turning ideas into reality with code 🧁👩‍💻
@@ -75,8 +76,7 @@ I believe in:
 
 ## 🌟 Live Preview?
 
-If you'd like to see it in action, ask me for the live demo link! 🎉  
-Or clone and run it locally — it’s super light and cute 💻🎠
+https://vaniportfoliowebapp.netlify.app/
 
 ---
 
